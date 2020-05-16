@@ -14,15 +14,54 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Fira Code", monospace;
 }
 
 .main {
   max-width: 624px;
   background: #f8f8f8;
+  border-radius: 16px;
+  padding: 32px;
   display: flex;
   align-content: center;
   align-items: flex-start;
 }
 .person__photo {
+  margin-right: 32px;
   border-radius: 78px;
+}
+.person__description {
+  line-height: 22px;
+  margin: 0;
+}
+
+.person__description-link {
+  margin-top: 22px;
+}
+
+.person__info {
+  margin-top: 24px;
+}
+
+.person__name {
+  margin: 0;
+  font-size: 32px;
+}
+.person__positon {
+  margin: 0;
+  font-size: 18px;
+  font-style: italic;
+}
+.person__link {
+  color: #e20613;
+  text-decoration: none;
+}
+
+.special {
+  color: #ed6d05;
+  font-weight: normal;
+}
+.shop {
+  text-decoration: none;
+  color: #f8c7d0;
 }
