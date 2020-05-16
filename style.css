@@ -6,3 +6,23 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+body {
+  background: #2c2141;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  max-width: 624px;
+  background: #f8f8f8;
+  display: flex;
+  align-content: center;
+  align-items: flex-start;
+}
+.person__photo {
+  border-radius: 78px;
+}
